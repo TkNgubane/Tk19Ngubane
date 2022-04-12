@@ -371,7 +371,8 @@ img{
 
 
 /* ------------ Button ------------ */
-.button{
+.button,
+button .submit{
     display: inline-block;
     background-color: var(--first-color);
     color:  white;
@@ -380,41 +381,49 @@ img{
     font-weight: var(--font-medium);
 }
 
-.button:hover{
+.button:hover,
+button .submit{
     background-color: var(--first-color-alt);
 }
 
-.button_icon{
+.button_icon,
+button .submit{
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
     transition: .3s; 
 }
 
-.button-white{
+.button-white,
+button .submit{
     background-color: white;
     color: var(--first-color);
 }
 
-.button-white:hover{
+.button-white:hover,
+button .submit:hover{
     background-color: white;
 }
 
-.button--flex{
+.button--flex,
+button .submit{
     display: inline-flex;
     align-items: center;
 }
 
-.button-small{
+.button-small,
+button .submit{
     padding: .75rem 1rem;
 }
 
-.button-link{
+.button-link,
+button .submit{
     padding: 0;
     background-color: transparent;
     color: var(--first-color);
 }
  
-.button-link:hover{
+.button-link:hover,
+button .submit:hover{
     background-color: transparent;
     color: var(--first-color-alt);
 }
