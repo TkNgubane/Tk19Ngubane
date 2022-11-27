@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>Ntokozo Ngubane's Portfolio Website - Cloud Engineer</title>
+    <meta name="description"
+        content="Ntokozo Ngubane a Cloud Engineer based in KwaZulu Natal, South Africa">
+    <meta name="author" content="Mr NS Ngubane">
+    <meta name="og:title" property="og:title"
+        content="An innovative programmer producing quality work to make the world a more unified and connected place.">
+    <meta name="geo.region" content="South Africa">
+
+    <link rel="shortcut icon" href="./Images/favicon (1).ico" type="image/x-icon">
+    <link rel="icon" href="./Images/favicon (1).ico" type="image/x-icon">
+    
+    <!-- ------ Unicorns ------ -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ------ Swiper ------ -->
+    <link rel="stylesheet" href="./CSS/swiper-bundle.min.css">
+
+    <!-- ------ CSS ------ -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+
+<body>
+    <!-- ------------ Header ------------ -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Ntokozo Ngubane</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> About 
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class="uil uil-briefcase-alt nav_icon"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i> Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul> 
+                <i class="uil uil-times nav_close" id="nav-close"></i>    
+            </div>
+
+            <div class="nav_btns">
+                <!-- ---------- Theme change button ---------- -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>                
+                <!-- ----XXX--- Theme change button ---XXX---- -->
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- -----XXX---- Header -----XXX---- -->
+
+
+    <!-- ---------------- Main ---------------- -->
+    <main class="main">
+        <!-- ---------- Home ---------- -->
+        <!-- <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        
+                        <a href="https://www.linkedin.com/in/ntokozo-ngubane-tk19ngubane" target="_blank" class="home_social-icon" title="Linkedin Profile">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        
+                        <a href="https://github.com/TkNgubane?tab=repositories" target="_blank" class="home_social-icon" title="GitHub Profile">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        
+                        <a href="https://instagram.com/tk__ngubane?utm_medium=copy_link" target="_blank" class="home_social-icon" title="Instagram Profile">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home_img">
+                        <img class="home_blob-img" src="./Programming-amico(1).png" alt="">
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title">Greetings, I'am Ntokozo</h1>
+                        <h3 class="home_subtitle">A Cloud Engineer</h3>
+                        <p class="home_description">Knowledgeable in designing, managing, and maintaining cloud infrastructure.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section> -->
+        <!-- ---XXX---- Home ----XXX--- -->
+
+
+        <!-- ------------ About ------------ -->
+        <section class="about section" id="about">
+            <h2 class="section_title">Azure Labs</h2>
+
+
+            <!-- ----------------- Lab 1 ----------------- -->
+            <span class="lab_subtitle lab_section">Access a Public Storage Container from an ASP.NET Web App</span>
+            <div class="about_container container">
+                <video src="./azLabs/Access a Public Storage Container from an ASP.NET Web App.mkv" alt="" controls class="lab_vid"></video>
+                
+                <div class="about_data">
+                    <p class="about_description">
+                        Usecase scenario:
+                        <br>
+                            As a developer you are tasked with creating an Azure web app. You need to write to code to access an Azure 
+                            Storage account used by the web app. First you write the code in Visual Studio to create a container that has 
+                            public access, and then you will upload test files to the container. Next you will code to retrieve the URLs 
+                            of the uploaded files. Finally, you will test the configuration by using a test page.      
+                    </p>
+
+                    <p class="about_description">
+                        What was accomplished: 
+                        <br>&emsp;&emsp;•	Added Azure Storage capabilities to an ASP.NET MVC project.
+                        <br>&emsp;&emsp;•	Accessed an Azure Storage account programmatically.
+                        <br>&emsp;&emsp;•	Provisioned an Azure Storage blob container that has public access.
+                        <br>&emsp;&emsp;•	Uploaded files to an Azure Storage blob container.
+                        <br>&emsp;&emsp;•	Retrieved a list of files from an Azure Storage blob container.
+
+                    </p>
+
+                </div>
+            </div>
+            <!-- -------XXX------- Lab 1 --------XXX------ -->
+
+
+            
+
+            <!-- ----------------- Lab 2 ----------------- -->
+            <span class="lab_subtitle lab_section">Access a Public Storage Container from an ASP.NET Web App</span>
+            <div class="about_container container">
+                <video src="./azLabs/Access a Public Storage Container from an ASP.NET Web App.mkv" alt="" controls class="lab_vid"></video>
+                
+                <div class="about_data">
+                    <p class="about_description">
+                        Usecase scenario:
+                        <br>
+                            As a developer you are tasked with creating an Azure web app. You need to write to code to access an Azure 
+                            Storage account used by the web app. First you write the code in Visual Studio to create a container that has 
+                            public access, and then you will upload test files to the container. Next you will code to retrieve the URLs 
+                            of the uploaded files. Finally, you will test the configuration by using a test page.      
+                    </p>
+
+                    <p class="about_description">
+                        What was accomplished: 
+                        <br>&emsp;&emsp;•	Added Azure Storage capabilities to an ASP.NET MVC project.
+                        <br>&emsp;&emsp;•	Accessed an Azure Storage account programmatically.
+                        <br>&emsp;&emsp;•	Provisioned an Azure Storage blob container that has public access.
+                        <br>&emsp;&emsp;•	Uploaded files to an Azure Storage blob container.
+                        <br>&emsp;&emsp;•	Retrieved a list of files from an Azure Storage blob container.
+
+                    </p>
+
+                </div>                
+            </div>
+            <!-- -------XXX------- Lab 2 --------XXX------ -->
+        </section>        
+        <!-- ----XXX----- About -----XXX---- -->
+                
+        
+        <!-- ----------- Contact Me ----------- -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in touch</span>
+        
+            <div class="contact_container container grid">
+                <div>
+                    
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+                
+                        <div>
+                            <h3 class="contact_title">Contact Me</h3>
+                            <span class="contact_subtitle">+27 84 598 8886 </span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+                
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">tk19ngubane@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/xwkyrlpp" method="POST" class="contact_form grid">
+                    <div class="contact_input grid">
+                        <div class="contact_content">
+                            <label for="firstName" class="contact_lablel">Name</label>
+                            <input name="firstName" id="firstName" type="text" class="contact_input">
+                        </div>
+                        
+                        <!-- <div class="contact_content">
+                            <label for="" class="contact_lablel">Email</label>
+                            <input type="email" class="contact_input">
+                        </div> -->
+                    </div>
+
+                    <div class="contact_input grid">
+                        <!-- <div class="contact_content">
+                            <label for="" class="contact_lablel">Name</label>
+                            <input type="text" class="contact_input">
+                        </div> -->
+                        
+                        <div class="contact_content">
+                            <label for="email" class="contact_lablel">Email</label>
+                            <input name="email" id="email" type="email" class="contact_input">
+                        </div>
+                    </div>
+                    
+                    <div class="contact_content">
+                        <label for="projectName" class="contact_lablel">Project</label>
+                        <input name="projectName" id="projectName" type="text" class="contact_input">
+                    </div>
+                    
+                    <div class="contact_content">
+                        <label for="formMessage" class="contact_lablel">Message</label>
+                        <textarea name="formMessage" id="formMessage" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button button-flex submit">
+                            Send Message
+                            <i class="uil uil-message button_icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- ----XXX---- Contact Me ----XXX---- -->
+    </main>
+    <!-- -----XXX-------- Main ---------XXX---- -->
+
+
+    <!-- -------------- Footer ----------- -->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Ntokozo Ngubane</h1>
+                    <span class="footer_subtitle">Cloud Engineer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer_link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials"> 
+                    <a href="https://www.linkedin.com/in/ntokozo-ngubane-tk19ngubane" target="_blank" class="footer_social" title="Linkedin Profile">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    
+                    <a href="https://github.com/TkNgubane?tab=repositories" target="_blank" class="footer_social" title="GitHub Profile">
+                        <i class="uil uil-github"></i>
+                    </a>
+                    
+                    <a href="https://instagram.com/tk__ngubane?utm_medium=copy_link" target="_blank" class="footer_social" title="Instagram Profile">
+                        <i class="uil uil-instagram-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">&#169; All rights reserved</p>
+        </div>
+    </footer>
+    <!-- -----XXX------ Footer ----XXX---- -->
+
+    
+    <!-- -------------- Scroll Up ------------- -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+    <!-- -----XXX------ Scroll Up -----XXX----- -->
+    
+
+    <!-- ------------------------------------------------------------------------ -->
+    <!-- ---------- Swiper JS ---------- -->
+    <script src="./Javascript/swiper-bundle.min.js"></script>
+    
+    <!-- ------ JS ------  -->
+    <script src="./Javascript/javascript.js"></script>
+</body>
+</html>

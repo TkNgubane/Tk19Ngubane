@@ -141,6 +141,11 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+video{
+    max-width: 100%;
+    height: auto;
+}
 /* ------xxx---- Base -----xxx----- */
 /* -----------XXX--------- Variables CSS ----------XXX---------- */
 
@@ -1082,6 +1087,55 @@ button .submit:hover{
     background-color: var(--text-color-light);
 }
 /* -------XXX------ Scroll Bar -------XXX------ */
+
+
+
+/* ------------ ------------- */
+
+
+/* ---------------- Labs ---------------- */
+.lab_vid{
+    /* width: 70%; */
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+/* .about_description_labs{
+
+} */
+
+.lab_section{
+    padding-top: 4rem;
+}
+
+.lab_subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1-5);
+}
+
+.section_title,
+.lab_subtitle{
+    text-align: center;
+}
+/* -------XXX------ Labs ------XXX------- */
+
+
+
+/* ------------ ------------- */
+
+
+
+
+
+
+
 
 /* -------------------------- Media Querie -------------------------- */
 /* ---------- For small devices ---------- */
