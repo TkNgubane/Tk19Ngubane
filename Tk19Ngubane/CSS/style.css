@@ -681,6 +681,10 @@ button .submit:hover{
 .qualification_button.qualification_active{
     color: var(--first-color);
 }
+
+.current_employment_line{
+    background-color: var(--first-color)!important; 
+}
 /* --------XXX-------- Qualification --------XXX------- */
 
 
