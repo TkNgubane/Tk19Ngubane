@@ -579,6 +579,22 @@ button .submit:hover{
     width: 63%;
 }
 
+.skills_sharepoint{
+    width: 80%;
+}
+
+.skills_power_apps{
+    width: 71%;
+}
+
+.skills_active_directory{
+    width: 85%;
+}
+
+.skills_power_automate{
+    width: 74%;
+}
+
 .skills_close .skills_list{
     height: 0;
     overflow: hidden;
